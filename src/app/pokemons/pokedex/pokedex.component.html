@@ -1,0 +1,8 @@
+<mat-sidenav-container class="example-container" *ngIf="shouldRun">
+  <mat-sidenav opened mode="side">
+    <app-pokemon-list></app-pokemon-list>
+  </mat-sidenav>
+  <mat-sidenav opened mode="side" position="end">
+    <app-pokemon-detail></app-pokemon-detail>
+  </mat-sidenav>
+</mat-sidenav-container>
